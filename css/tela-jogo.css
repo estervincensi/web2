@@ -1,0 +1,46 @@
+body{
+  color:blue;
+  background-color: #000;
+}
+h1{
+  text-shadow: 0.04em 0.03em #fff;
+}
+.margin-top{
+  margin-top: 5%;
+}
+
+.color-none{
+  background-color: #000;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-size{
+  font-size: 22px;
+}
+
+.teclado{
+  background-color: #ccc;
+  text-align: center;
+  border:5px solid blue;
+  margin: 5px auto;
+  width: 370px;
+}
+
+.font-times{
+  font-family: "Times New Roman";
+}
+
+.botao-teclado{
+  margin-top: 2%;
+  /*height:30px;
+  width: 30px;*/
+}
+
+.botao-palpite{
+  margin-top: 2%;
+  margin-bottom: 1.5%
+  text-align: center;
+}

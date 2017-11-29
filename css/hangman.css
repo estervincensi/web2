@@ -1,0 +1,153 @@
+div{
+   background-color: blue;
+ }
+ .corBoneco{
+   background-color: white;
+ }
+ #prende{
+   margin-left:130px;
+   width: 70px;
+   height: 10px
+ }
+
+ #desce{
+   margin-left:160px;
+   height: 120px;
+   width: 10px;
+ }
+
+ #suspende{
+   width: 160px;
+   height: 10px;
+ }
+
+ #base{
+   width: 10px;
+   height: 370px;
+ }
+
+ .cabeca{
+   width: 50px;
+   height: 50px;
+   margin-left: 140px;
+   margin-top: 130px;
+   border-radius: 50%;
+   float:left;
+   display:none;
+ }
+
+ .corpo{
+   width: 10px;
+   height: 140px;
+   margin-left: 160px;
+   margin-top: 48px;
+   float:left;
+   float:none;
+   display:none;
+ }
+
+ .perna-direita{
+   width: 10px;
+   height: 70px;
+   margin-left: 20px;
+   margin-top: 45px;
+   float:none;
+   float:left;
+   transform: rotate(-35deg);
+   display:none;
+ }
+
+
+ .perna-esquerda{
+   width: 10px;
+   height: 70px;
+   float:none;
+   float:left;
+   transform: rotate(35deg);
+   margin-left: -20px;
+   margin-top: 45px;
+   display:none;
+ }
+
+ .braco-esquerdo{
+   width: 10px;
+   height: 70px;
+   margin-top: 10px;
+   margin-left: -20px;
+   float:none;
+   float:left;
+   transform: rotate(35deg);
+   display:none;
+ }
+
+ .braco-direito{
+   width: 10px;
+   height: 70px;
+   margin-left: 20px;
+   margin-top: 10px;
+   float:none;
+   float:left;
+   transform: rotate(-35deg);
+   display:none;
+ }
+
+
+@keyframes ficarRoxo {
+   from {
+     background: white;
+   }
+   to {
+     background: #6666FF;
+   }
+ }
+
+ @keyframes debaterBracoDireito {
+   from {
+     margin-left: 20px;
+     margin-top: 10px;
+     transform: rotate(-35deg);
+   }
+   to {
+     margin-left: 31px;
+     margin-top: -1px;
+     transform: rotate(-69deg);
+   }
+ }
+
+ @keyframes debaterBracoEsquerdo {
+   from {
+     margin-top: 10px;
+     margin-left: -20px;
+     transform: rotate(35deg);
+   }
+   to {
+     margin-top: 3px;
+     margin-left: -27px;
+     transform: rotate(59deg);
+   }
+ }
+
+ @keyframes debaterPernaEsquerda {
+   from {
+     transform: rotate(35deg);
+     margin-left: -20px;
+     margin-top: 45px;
+   }
+   to {
+     transform: rotate(48deg);
+     margin-left: -25px;
+     margin-top: 49px;
+   }
+ }
+
+ @keyframes debaterPernaDireita {
+   from {
+     margin-left: 20px;
+     margin-top: 45px;
+     transform: rotate(-35deg);
+   }
+   to {
+     margin-left: 29px;
+     margin-top: 46px;
+     transform: rotate(-55deg);   }
+ }

@@ -1,0 +1,11 @@
+body{
+  color: blue;
+  background: black;
+}
+h1{
+  text-shadow: 0.04em 0.03em #fff;
+}
+.margem{
+  border: 5px solid blue;
+  padding: 20px;
+}
