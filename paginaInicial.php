@@ -46,6 +46,8 @@ if (!$db_selected) {
       $sqlcreate2 = "CREATE TABLE usuarios (id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,usuario varchar(250) NOT NULL,dificuldade varchar(250) NOT NULL,pontuacao int(11) NOT NULL)";
       mysqli_query($conn,$sqlcreate);
       mysqli_query($conn,$sqlcreate2);
+      $sqlInsert = "INSERT INTO palavras(nome, dica) VALUES ('Java', 'Linguagem de programação orientada a objetos'),('HTML', 'Linguagem de marcação de hipertexto'),('CSS', 'Folha de estilo em cascata')";
+      mysqli_query($conn, $sqlInsert);
       mysqli_close($conn);
   } else {
       echo 'Error creating database: ' . mysql_error() . "\n";

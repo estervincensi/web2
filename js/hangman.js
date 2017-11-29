@@ -140,7 +140,7 @@ function preencheRanking(){
       if(contaNormais<=4){
         $('#normal').append(
           $('<li>')
-          .append('nome: '+usuarios[i].nome+' dificuldade:'+usuarios[i].dificuldade+' pontuação:'+usuarios[i].pontos)
+          .append('nome: '+usuarios[i].nome+ ' pontuação:'+usuarios[i].pontos)
         );
         contaNormais++;
       }
@@ -148,7 +148,7 @@ function preencheRanking(){
       if(contadificil<=4){
         $('#dificil').append(
           $('<li>')
-          .append('nome: '+usuarios[i].nome+' dificuldade:'+usuarios[i].dificuldade+' pontuação:'+usuarios[i].pontos)
+          .append('nome: '+usuarios[i].nome+' pontuação:'+usuarios[i].pontos)
         );
       }
       contadificil++;
